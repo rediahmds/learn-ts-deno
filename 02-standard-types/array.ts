@@ -25,3 +25,5 @@ numbersBracket.push(1)
 numbersBracket.push(15)
 // numbersBracket.push(true) // type error
 console.log(numbersBracket)
+
+// The other way around is to fill the array first and let typescript infer the elements type of the array
